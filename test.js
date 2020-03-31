@@ -1,4 +1,6 @@
 const verb = {
+  "type": "A3",
+
   "root_e": "rdy",
   "root_a": "رَضِيَ",
   "iiim1": "IIM1",
