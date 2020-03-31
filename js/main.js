@@ -56,31 +56,31 @@ const outputHtml = matches => {
   </thead>
   <tbody>
     <tr>
-      <td class="english">${match.pp_f1_e}#pleased, pleasing, pleasure, The pleased one, Lots of fun</td>
-      <td class="english">${match.pp_m1_e}#pleased</td>
-      <td class="english">${match.ap_def_f1_e}#The pleasing</td>
-      <td class="english">${match.ap_def_m1_e}#The pleasing</td>
-      <td class="english">${match.ap_indef_f1_e}#Pleasing</td>
-      <td class="english">${match.ap_indef_m1_e}#Pleasing</td>
-      <td class="english">${match.im1$f1_e}#I became pleased@</td>
-      <td class="english">${match.iif1_e}#You became pleased@</td>
-      <td class="english">${match.iim1_e}#You became pleased@</td>
-      <td class="english">${match.iiif1_e}#She became pleased</td>
-      <td class="english">${match.iiim1_e}#He became pleased</td>
+      <td class="english">${match.pp_f1_e}</td>
+      <td class="english">${match.pp_m1_e}</td>
+      <td class="english">${match.ap_def_f1_e}</td>
+      <td class="english">${match.ap_def_m1_e}</td>
+      <td class="english">${match.ap_indef_f1_e}</td>
+      <td class="english">${match.ap_indef_m1_e}</td>
+      <td class="english">${match.im1$f1_e}</td>
+      <td class="english">${match.iif1_e}</td>
+      <td class="english">${match.iim1_e}</td>
+      <td class="english">${match.iiif1_e}</td>
+      <td class="english">${match.iiim1_e}</td>
       <td class="english">Root (${ match.root_e.toUpperCase()})</td>
     </tr>
     <tr>
-      <td class="arabic">${match.pp_f1_a}#مَرْضِيَّةٌ</td>
-      <td class="arabic">${match.pp_m1_a}#مَرْضِيٌّ</td>
-      <td class="arabic">${match.ap_def_f1_a}#الرَّاضِيَةُ</td>
-      <td class="arabic">${match.ap_def_m1_a}#الرَّاضِي</td>
-      <td class="arabic">${match.ap_indef_f1_a}#رَاضِيَةٌ</td>
-      <td class="arabic">${match.ap_indef_m1_a}#رَاضٍ</td>
-      <td class="arabic">${match.im1$f1_a}#رَضِيْتُ</td>
-      <td class="arabic">${match.iif1_a}#رَضِيْتِ</td>
-      <td class="arabic">${match.iim1_a}#رَضِيْتَ#</td>
-      <td class="arabic">${match.iiif1_a}#رَضِيَتْ</td>
-      <td class="arabic">${match.iiim1_a}#رَضِيَ</td>
+      <td class="arabic">${match.pp_f1_a}</td>
+      <td class="arabic">${match.pp_m1_a}</td>
+      <td class="arabic">${match.ap_def_f1_a}</td>
+      <td class="arabic">${match.ap_def_m1_a}</td>
+      <td class="arabic">${match.ap_indef_f1_a}</td>
+      <td class="arabic">${match.ap_indef_m1_a}</td>
+      <td class="arabic">${match.im1$f1_a}</td>
+      <td class="arabic">${match.iif1_a}</td>
+      <td class="arabic">${match.iim1_a}</td>
+      <td class="arabic">${match.iiif1_a}</td>
+      <td class="arabic">${match.iiim1_a}</td>
       <td class="arabic">${match.root_a}</td>
     </tr>
 
