@@ -1,0 +1,31 @@
+.verb-table {
+  border-collapse: collapse; 
+  border: 2px solid black;
+}
+
+.arabic {
+  color: green;
+  width: 8%;
+  padding: 2px;
+  border: 1px solid black;
+  font-size: 26px;
+  text-align: center;
+}
+
+.english {
+  color: blue;
+  width: 8%;
+  padding: 2px;
+  border: 1px solid black;
+  font-size: 12px;
+  text-align: left;
+}
+
+.form {
+  color: red;
+  width: 8%;
+  padding: 2px;
+  border: 1px solid black;
+  font-size: 12px;
+  text-align: center;
+}
