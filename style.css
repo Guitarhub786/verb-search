@@ -26,21 +26,23 @@
 }
 
 .arabic {
-  color: blue;
+  color: #111;
   width: 8%;
   padding: 8px;
   border: 1px solid black;
   font-size: 38px;
+  font-weight: bold;
   text-align: center;
   background: var(--background);
 }
 
 .english {
-  color: green;
+  color: blue;
   width: 8%;
   padding: 5px;
   border: 1px solid black;
   font-size: 18px;
+    font-weight: bold;
   /* font-weight: bold; */
   text-align: left;
   background: var(--background);
@@ -51,8 +53,7 @@
   width: 8%;
   padding: 2px;
   border: 1px solid black;
-  font-size: 16
-  px;
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
   background: var(--background);
