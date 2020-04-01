@@ -1,4 +1,5 @@
 
+getFocus(); // input box set focus
 const endpoint = './verbs.json';
 
 const verbs = [];
@@ -92,4 +93,7 @@ const suggestions = document.querySelector('.suggestions');
 
 searchInput.addEventListener('change', displayMatches);
 searchInput.addEventListener('keyup', displayMatches);
+function getFocus() {
+  document.getElementById("search").focus();
+}
 
