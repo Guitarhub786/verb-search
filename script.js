@@ -41,11 +41,12 @@ function displayMatches() {
     <table class="verb-table">
     
     <thead>
-    <th  colspan="5" class="key-word">${keyWord}</th>
+    <th  colspan="7" class="key-word">${keyWord}</th>
     <tr>
     
+    <th class="form">${word.vn}</th>
     <th class="form">${word.pp_m1}</th>
-    
+    <th class="form">${word.pi_m1}</th>
     <th class="form">${word.ap_indef_m1}</th>
     <th class="form">${word.iim1}</th>
     <th class="form">${word.iiim1}</th>
@@ -55,17 +56,20 @@ function displayMatches() {
     </thead>
     <tbody>
     <tr>
+    <td class="english">${word.vn_e}</td>
     <td class="english">${word.pp_m1_e}</td>
-    
+    <td class="english">${word.pi_m1_e}</td>
     <td class="english">${word.ap_indef_m1_e}</td>
     <td class="english">${word.iim1_e}</td>
     <td class="english">${word.iiim1_e}</td>
-    <td class="english">Root: (${rootWord.toUpperCase()})</td>
+    <td class="english">Root: ${rootWord}</td>
    
     </tr>
     <tr>
     
+    <td class="arabic">${word.vn_a}</td>
     <td class="arabic">${word.pp_m1_a}</td>
+    <td class="arabic">${word.pi_m1_a}</td>
     <td class="arabic">${word.ap_indef_m1_a}</td>
     <td class="arabic">${word.iim1_a}</td>
     <td class="arabic">${word.iiim1_a}</td>
