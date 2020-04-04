@@ -31,8 +31,11 @@ function displayMatches() {
     // const keyWord = word.key_words.replace(regex, `<span class="h1">${this.value}</span>`);
     // const rootWord = word.root_e.replace(regex, `<span class="h1">${this.value}</span>`);
 
+
     const keyWord = word.key_words.replace(regex, (match) => `<span class="hl">${match}</span>`);
     const rootWord = word.root_e.replace(regex, (match) => `<span class="hl">${match}</span>`);
+
+    let reverso = `https://conjugator.reverso.net/conjugation-arabic-verb-${word.iiim1_a}.html`
 
     return `
     <li>
@@ -42,7 +45,16 @@ function displayMatches() {
     <table class="verb-table">
     
     <thead>
-    <th  colspan="7" class="key-word">${keyWord}</th>
+    
+    <tr>
+    <th  colspan="7" class="key-word"> <span><a href=${reverso} target="_blank">${word.iiim1_a} </a></span>${keyWord}</th>
+   
+    </tr>
+
+    <tr>
+    
+    </tr>
+    
     <tr>
     
     <th class="form">${word.vn}</th>
